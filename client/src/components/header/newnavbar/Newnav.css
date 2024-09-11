@@ -7,7 +7,7 @@
     top: 60px;
     display: flex;
     align-items: center;
-    padding: 0 20px; /* Add padding for spacing */
+    /* padding: 0 20px; */
     z-index: 0;
     margin-top: 15px;
     overflow: hidden;
