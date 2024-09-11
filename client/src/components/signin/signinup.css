@@ -1,0 +1,115 @@
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 70px;
+}
+
+.signcontainer {
+    background-color: #1e1e1e; /* Slightly lighter dark background */
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 400px;
+    width: 100%;
+}
+
+.signheader {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signheader img {
+    width: 150px; /* Adjust PlayStation logo size */
+}
+
+.signform h3 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+.formdetail {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.formdetail label {
+    color: #bdbdbd; /* Light gray label */
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.formdetail input {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2d2d2d; /* Dark input background */
+    color: #ffffff;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+.formdetail input:focus {
+    background-color: #3e3e3e; /* Slightly lighter background on focus */
+    border: 1px solid #0070d1; /* PlayStation blue border */
+}
+
+.signinbtn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0070d1; /* PlayStation blue */
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.signinbtn:hover {
+    background-color: #005bb5; /* Darker blue on hover */
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #0070d1;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.createacc {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.createacc button {
+    background-color: transparent;
+    border: 2px solid #0070d1;
+    padding: 10px 20px;
+    color: #0070d1;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.createacc button:hover {
+    background-color: #0070d1;
+    color: #ffffff;
+}
