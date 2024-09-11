@@ -1,0 +1,9 @@
+.carousel {
+    margin-top: 10;
+}
+
+.bannerimg {
+    width: 100vw;
+    height: 380px;
+    object-fit: cover;
+}
