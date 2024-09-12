@@ -1,0 +1,252 @@
+/* .buysect{
+    width: 100%;
+    min-height:50vh;
+    position: relative;
+    top: 50px;
+    
+}
+.buycontainer{
+    display: flex;
+    margin: 0 auto;
+    padding:40px 20px;
+}
+.leftbuy{
+    padding: 10px 20px;
+    border-radius: 2px;
+     flex: .7;
+}
+.leftbuy h1{
+    font-weight: 500;
+    font-size: 28px;
+}
+.leftbuy p{
+    font-size: 14px;
+    margin: 5px auto;
+    color: #007185;
+}
+.leftbuy span{
+   display: block;
+   text-align: right;
+   font-size: 14px;
+   padding-right: 3px;
+   color: #565959
+}
+.itemcontainer{
+    padding: 10px 5px 20px 15px;
+    display: grid;
+    grid-template-columns:.8fr 2fr .1fr;
+}
+.itemcontainer img{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+.addremoveitem{
+    color: #007185!important;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.addremoveitem select{
+    padding: 5px;
+    width: 50px;
+    border-radius: 8px;
+    background-color: #eeeded;
+    letter-spacing: .2px;
+    margin-top: 4px;
+    outline: none;
+   border: 1px solid #e7e7e7;
+    box-shadow: 0 0 15px -7px rgba(0,0,0,1);
+}
+.subitem{
+    display: flex;
+    justify-content: flex-end;
+}
+.subitem h3{
+    font-weight: 500;
+    margin: 10px 0;
+}
+.differentprice{
+    display: none;
+}
+.rightbuy{
+    flex: .2;
+    margin-right: -50px;
+    padding: 0 20px;
+    border-radius: 2px;
+}
+.rightbuy img{
+    width: 100px;
+    height: 100px;
+}
+.rightbuybtn{
+    width: 100%;
+    margin-top: 15px;
+    padding: 8px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color:#FFD814;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 0 10px -5px rgba(0,0,0,.5);
+}
+.rightbuybtn:hover{
+    background-color:#f3cc0a;
+} */
+
+
+:root {
+    --ps-blue: #0070cc;
+    --ps-light-blue: #0072ce;
+    --ps-dark-blue: #003791;
+    --ps-black: #000000;
+    --ps-white: #ffffff;
+    --ps-light-gray: #f4f4f4;
+    --ps-dark-gray: #1f1f1f;
+  }
+  
+  body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color: var(--ps-light-gray);
+    color: var(--ps-dark-gray);
+  }
+  
+  .buysect {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 50px;
+  }
+  
+  .buycontainer {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+  
+  .leftbuy {
+    flex: 0.7;
+    background-color: var(--ps-white);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .leftbuy h1 {
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--ps-dark-blue);
+    margin-bottom: 10px;
+  }
+  
+  .leftbuy p {
+    font-size: 16px;
+    margin: 5px 0 20px;
+    color: var(--ps-blue);
+  }
+  
+  .leftbuy span {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    color: var(--ps-dark-gray);
+    margin-bottom: 20px;
+  }
+  
+  .itemcontainer {
+    display: grid;
+    grid-template-columns: 0.8fr 2fr 0.1fr;
+    gap: 20px;
+    align-items: center;
+    border-bottom: 1px solid var(--ps-light-gray);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .itemcontainer img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .itemdetail h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .addremoveitem {
+    color: var(--ps-blue) !important;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .addremoveitem select {
+    padding: 8px;
+    width: 60px;
+    border-radius: 4px;
+    background-color: var(--ps-white);
+    border: 1px solid var(--ps-light-blue);
+    color: var(--ps-dark-blue);
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .itemprice {
+    font-weight: 600;
+    color: var(--ps-dark-blue);
+  }
+  
+  .rightbuy {
+    flex: 0.3;
+    background-color: var(--ps-white);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    height: fit-content;
+  }
+  
+  .rightbuy img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .rightbuybtn {
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: var(--ps-blue);
+    color: var(--ps-white);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .rightbuybtn:hover {
+    background-color: var(--ps-dark-blue);
+  }
+  
+  @media (max-width: 768px) {
+    .buycontainer {
+      flex-direction: column;
+    }
+    
+    .leftbuy, .rightbuy {
+      width: 100%;
+    }
+    
+    .itemcontainer {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    
+    .itemcontainer img {
+      margin: 0 auto;
+    }
+  }

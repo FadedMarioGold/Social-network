@@ -39,6 +39,14 @@
     background-color: #f5f5f5; /* Light background for items */
     margin: 10px; /* Margin for spacing between items */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.proditem:hover{
+transform: scale(1.1);
+}
+.proditem:active{
+    transform: scale(0.95);
 }
 
 /* Image styling */
